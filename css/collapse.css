@@ -1,0 +1,84 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(200, 200, 200); 
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+div::-webkit-scrollbar {
+    width: 13px;
+}
+
+/* FIREFOX */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(190, 190, 190) white;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: unset;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    color: unset;
+    background-color: rgb(240, 240, 240);
+    border-color: transparent;
+}
+
+button#collapse-feedback,
+button#collapse-feedback {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+}
+
+.collapse,
+.collapse {
+    margin-bottom: 1%;
+}
+
+.collapse.show,
+.collapsing {
+    transition: all 250ms;
+}
+
+.collapse.show,
+.collapsing {
+    transition: all 250ms;
+}
+
+button#collapse-feedback img,
+button#collapse-feedback img {
+    width: 10px;
+    filter: brightness(35%);
+}
+
+.collapse.show#collapsefeedback div,
+.collapsing#collapsefeedback div {
+    width: 99%;
+}
+
+.collapse.show#collapsefeedback div,
+.collapsing#collapsefeedback div {
+    width: 99%;
+}
+
+div#feedback-div {
+    font-size: 12px;
+    color: rgb(50, 50, 50);
+    margin-bottom: 5px;
+}

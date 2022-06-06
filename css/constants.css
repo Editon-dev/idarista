@@ -1,0 +1,57 @@
+* {
+    font-family: 'Century Gothic';
+    font-size: 12pt;
+    color: rgb(50, 50, 50);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+hr {
+    margin-top: .5rem;
+}
+
+#hidden {
+    opacity: 0%;
+    cursor: none;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 19px;
+    }
+    
+    h3 {
+        font-size: 12px;
+    }
+    
+    h4 {
+        font-size: 10px;
+    }
+    
+    h5 {
+        font-size: 8px;
+    }
+}

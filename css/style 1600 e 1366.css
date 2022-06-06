@@ -1,0 +1,199 @@
+.menu{
+  background-color:#8AD687;
+  color:white;
+}
+
+.margem-doc-all{
+	margin-top: -7.3%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.img-principal{
+  width: 66%;
+  height: 100%;
+  position: relative;
+}
+.text{
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  top:80%;
+  
+  color: white;
+}
+.text-final{
+  position: relative;
+  text-align: center;
+  left: 100&;
+  top:80%;
+  font-family: arial black;
+  color: #696969;
+}
+
+.text-black{
+	font-size: 180%;
+  position: absolute;
+  text-align: center;
+  left: 15%;
+  top:83%;
+  font-family: arial black;
+  color: #696969;
+}
+
+.tamanho-icone{
+  width: 10%;
+  height: 20%;
+  margin-top: 20%;
+  margin-left: 9%;
+  float: left;
+  background: #bdc3c7;
+}
+
+.tamanho-icone2{
+  width: 10%;
+  height: 20%;
+  margin-top: 20%;
+  margin-left: 27%;
+  float:left;
+  background: #bdc3c7;
+}
+.tamanho-icone3{
+  width: 10%;
+  height: 20%;
+  margin-top: 20%;
+  margin-right: 9%;
+  float:right;
+  background: #bdc3c7;
+  font-variant-position: sub;
+}
+
+.text-icone{
+ 
+  margin-left: -15%;
+  margin-right: -30%;
+}
+
+.text-localizacao{
+  margin-left: 0%;
+  margin-right: -26%;
+}
+.text-custo{
+	margin-top: 1%;
+  margin-left: -15%;
+  margin-right: -18%;
+}
+.text-seguranca{
+  font-size: xx-large;
+  margin-left: -3%;
+  margin-right: -30%;
+}
+
+.cadastro{
+  background-color: #bdc3c7;
+  margin-left: 47%;
+  margin-bottom: 5%;
+}
+
+.parte2{
+  background-color:#1abc9c;
+}
+
+.margem-contratante{
+  margin: 10%;
+}
+
+.img-final{
+  width: 13%;
+  height: 5%;
+}
+
+.acordo-img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.invi{
+	visibility: hidden;
+}
+
+.diarista-icone{
+	width: 10%;
+	height: 10%;
+	margin: 1%;
+	
+}
+
+.foto-diarista1{
+  width: 23%;
+  height: 46%;
+  margin-top: 5%;
+  float:right;
+}
+
+.foto-diarista2{
+  width: 25%;
+  height: 50%;
+  margin-top: 7%;
+
+  margin-bottom: 1%;
+  float:left;
+}
+
+.rodape{
+  margin-top: -1.2%;
+  background-color:#8AD687;
+}
+
+.img-rodape{
+	width: 2%;
+	height :2%;
+	margin: 1%;
+}
+
+.img-rodape1{
+	width: 2%;
+	height :2%;		
+}
+
+.img-rodape2{
+	width: 2%;
+	height :2%;
+	position:relative;
+	margin-top: 1%;
+}
+
+.img-rodape3{
+	width: 2%;
+	height :2%;
+	position:relative;
+	margin-top: 1%;
+	margin-right: 1%;
+}
+
+.container-rodape{
+	margin: 5%;
+}
+
+.redes-sociais{
+  float:right;
+}
+
+.redes-download{
+  float:left;
+}
+
+.icones{
+  margin-top: -3%;
+  float:right;
+}
+
+.conteudo{
+	margin-left:-1%;
+	margin-right: -1%;
+}
+
+.indiedevs{
+	font-size: small;
+}

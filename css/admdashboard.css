@@ -1,0 +1,114 @@
+.shadow-box {
+    padding: 2%!important;
+}
+
+.shadow-box#small {
+    width: 30%;
+}
+
+.shadow-box#large {
+    width: 70%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 25px 10px;
+}
+
+form .form-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px;
+}
+
+form .form-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form .form-row .form-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0px 15px;
+}
+
+form .form-row .form-item#first {
+    padding-left: 0px;
+}
+
+form .form-row .form-item#last {
+    padding-right: 0px;
+}
+
+form input,
+form select {
+    width: 100%;
+}
+
+.listadiaristas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    padding: 1%;
+}
+
+.listadiaristas-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding: 1%;
+}
+
+.listadiaristas-dados {
+    display: flex;
+    flex-direction: column;
+    max-width: 49%;
+    width: 49%;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    padding-right: 2%;
+    box-shadow: 0 0 4px rgba(100, 100, 100, .7);
+}
+
+.listadiaristas-dados-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 4px rgba(100, 100, 100, .7);
+}
+
+img.foto {
+    width: 135px;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(100, 100, 100, .7);
+}
+
+form textarea {
+    height: 150px;
+}
+
+.title-dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title-dashboard div {
+    display: flex;
+    width: 70%;
+}

@@ -1,0 +1,376 @@
+.menu{
+  background-color:#8AD687;
+  color:white;
+}
+
+.margem-doc-all{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.img-principal{
+  width: 67%;
+  height: 100%;
+  position: relative;
+}
+
+.text{
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  top:80%;
+  
+  color: white;
+}
+
+.text-final{
+  position: relative;
+  text-align: center;
+  left: 100%;
+  top:80%;
+  font-family: arial black;
+  color: #696969;
+}
+
+.text-inicio{
+  position: relative;
+  text-align: center;
+  top:80%;
+  font-family: arial black;
+  color: #696969;
+  font-size: 200%;
+}
+.text-black{
+  position: absolute;
+  text-align: center;
+  left: 15%;
+  top:83%;
+  font-family: arial black;
+  color: #696969;
+}
+
+.text-principal{
+	text-align: center;
+	margin-top: 10%;
+}
+
+.text-sobre-produto{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 18%;
+  text-align:center;
+  background: #bdc3c7;
+}
+
+.tamanho-icone{
+  width: 10%;
+  height: 20%;
+  margin-top: 10%;
+  margin-left: 9%;
+  float: left;
+  background: #bdc3c7;
+}
+.tamanho-icone2{
+  width: 10%;
+  height: 20%;
+  margin-top: 10%;
+  margin-left: 27%;
+  float:left;
+  background: #bdc3c7;
+}
+.tamanho-icone3{
+  width: 10%;
+  height: 20%;
+  margin-top: 10.5%;
+  margin-right: 9%;
+  float:right;
+  background: #bdc3c7;
+  font-variant-position: sub;
+}
+
+.text-icone{
+  text-align: justify;
+  margin-top:-1%;
+  margin-left: -15%;
+  margin-right: 0;
+}
+
+.text-localizacao{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.text-custo{
+  margin-left: -15%;
+  margin-right: 0%;
+}
+.text-seguranca{
+  margin-left: -3%;
+  margin-right: 0%;
+}
+
+.text-logo{
+  margin-left: -15%;
+  margin-right: 0%;
+  margin-bottom: 1.5%;
+}
+
+.cadastro{
+  color: black;
+  background-color: #bdc3c7;
+  margin-left: 47%;
+  margin-bottom: 5%;
+}
+
+.parte2{
+  background-color:#1abc9c;
+}
+
+.margem-contratante{
+  margin: 10% 0px;
+}
+
+.img-final{
+  width: 13%;
+  height: 5%;
+}
+
+.acordo-img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.invi{
+	visibility: hidden;
+}
+
+.diarista-icone{
+	width: 10%;
+	height: 10%;
+	margin: 1%;
+}
+
+.foto-diarista1{
+  width: 23%;
+  height: 46%;
+  margin-top: 5%;
+  float:right;
+}
+
+.foto-diarista2{
+  width: 25%;
+  height: 50%;
+  margin-top: 5%;
+  float:left;
+}
+
+.rodape{
+  margin-top: -1.2%;
+  background-color:#8AD687;
+}
+
+.img-rodape{
+	width: 2%;
+	height :2%;
+	margin: 1%;
+}
+
+.img-rodape1{
+	width: 2%;
+	height :2%;		
+}
+
+.img-rodape2{
+	width: 2%;
+	height :2%;
+	position:relative;
+	margin-top: 1%;
+}
+
+.img-rodape3{
+	width: 2%;
+	height :2%;
+	position:relative;
+	margin-top: 1%;
+	margin-right: 1%;
+}
+
+.container-rodape{
+	margin: 5%;
+}
+
+.redes-sociais{
+  float:right;
+}
+
+.redes-download{
+  float:left;
+}
+
+.icones{
+  margin-top: -3%;
+  float:right;
+}
+
+.conteudo{
+	margin-left:-1%;
+	margin-right: -1%;
+}
+
+.indiedevs{
+	font-size: small;
+}
+.tamanho{
+	height: 100%;
+	width: 100%;
+}
+#pop-up{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.8);
+  position: fixed;
+  display: none;
+
+}
+#pop-up:target{
+  display: block;
+}
+.box{
+  background-color: #8AD687;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  margin-left: -360px;
+  margin-top: 8%;
+  left: 50%;
+  opacity:.6;
+
+}
+.box img{
+  width: 100%;
+  position: absolute;
+}
+#close{
+  color: #fff;
+  font-family: 'Arial';
+  text-decoration: none;
+  font-size: 20px;
+  position: absolute;
+  margin-top: -35.9%;
+  background-color: #000;
+  width: 40px;
+  text-align: center;
+  right: 0;
+}
+#close:hover{
+  opacity: .6;
+}
+.title-pop{
+  text-align: center;
+  margin: 5%;
+}
+.text-pop{
+  margin: 5%;
+  text-align: justify;
+}
+
+.margem-contratante input{
+  width: 40%;
+}
+
+button, .normal-button {
+  width: fit-content;
+  color: rgb(30, 30, 30);
+  background-color: rgb(250, 250, 250);
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 3px rgba(100, 100, 100, .7);
+  transition: all 250ms;
+}
+
+button:hover, .normal-button:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.margem-contratante button {
+  margin-left: 10px;
+}
+
+input#cvc {
+  width: 80px;
+}
+
+.margem-contratante input[type="radio"],
+.margem-contratante input[type="checkbox"] {
+  width: 30px;
+}
+
+.select2-container {
+  margin-bottom: 0px!important;
+}
+
+.margem-contratante select {
+  padding: 0px 5px;
+}
+
+form #cpf,
+form #rg,
+form #login,
+form #senha {
+  width: 25%;
+}
+
+.radio-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.button-field {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.button-field#center {
+  justify-content: center;
+}
+
+.slick-dotted.slick-slider {
+  margin-top: 30px;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin-top: 65px;
+}
+
+.maincontainer-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.maincontainer-row .shadow-box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5%;
+  margin: 0px 15px;
+  box-shadow: 0 0 4px rgba(100, 100, 100, .7);
+  border: none;
+}
+
+.select2-container--default .select2-selection--single {
+  border-color: rgb(118, 118, 118);
+  border-radius: 0px;
+}
